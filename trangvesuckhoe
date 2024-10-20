@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trang web của công ty bảo hiểm Dai-ichi Life">
+    <title>Dai-ichi Life</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dai-ichi Life</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="#about">Về Chúng Tôi</a></li>
+                    <li><a href="#services">Dịch Vụ</a></li>
+                    <li><a href="#contact">Liên Hệ</a></li>
+                    <li><a href="#privacy-policy">Chính Sách Bảo Mật</a></li>
+                    <li><a href="#terms-of-service">Điều Khoản Sử Dụng</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Chào Mừng đến với Dai-ichi Life</h2>
+            <p>Bảo vệ tương lai của bạn bằng những giải pháp bảo hiểm tốt nhất.</p>
+            <a href="#services" class="btn">Tìm Hiểu Thêm</a>
+        </section>
+
+        <section id="about">
+            <h2>Về Chúng Tôi</h2>
+            <p>Dai-ichi Life là một trong những công ty bảo hiểm hàng đầu tại Việt Nam, cung cấp các sản phẩm bảo hiểm đa dạng.</p>
+            <p>Chúng tôi cam kết mang lại sự an tâm và bảo vệ tài chính cho khách hàng thông qua các dịch vụ bảo hiểm chất lượng cao và đội ngũ tư vấn chuyên nghiệp.</p>
+        </section>
+
+        <section id="services">
+            <h2>Dịch Vụ</h2>
+            <div class="service-item">
+                <h3>Bảo Hiểm Nhân Thọ</h3>
+                <p>Cung cấp giải pháp tài chính cho gia đình bạn trong trường hợp không may.</p>
+            </div>
+            <div class="service-item">
+                <h3>Bảo Hiểm Sức Khỏe</h3>
+                <p>Đảm bảo bạn nhận được sự chăm sóc y tế tốt nhất khi cần.</p>
+            </div>
+            <div class="service-item">
+                <h3>Bảo Hiểm Tai Nạn</h3>
+                <p>Bảo vệ bạn khỏi những rủi ro bất ngờ trong cuộc sống hàng ngày.</p>
+            </div>
+            <div class="service-item">
+                <h3>Các Sản Phẩm Đầu Tư</h3>
+                <p>Giúp bạn đầu tư cho tương lai với lãi suất hấp dẫn.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Liên Hệ</h2>
+            <p>Email: <a href="mailto:tranvinh.lienhe@gmail.com">tranvinh.lienhe@gmail.com</a></p>
+            <p>Điện thoại: 0344651988</p>
+            <form action="#" method="POST">
+                <label for="name">Họ Tên:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Tin Nhắn:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Gửi</button>
+            </form>
+        </section>
+
+        <section id="privacy-policy">
+            <h2>Chính Sách Bảo Mật</h2>
+            <p>Chúng tôi cam kết bảo vệ thông tin cá nhân của bạn. Dữ liệu của bạn sẽ không được chia sẻ với bên thứ ba mà không có sự đồng ý của bạn.</p>
+        </section>
+
+        <section id="terms-of-service">
+            <h2>Điều Khoản Sử Dụng</h2>
+            <p>Bằng việc truy cập và sử dụng dịch vụ của chúng tôi, bạn đồng ý với các điều khoản sử dụng đã được nêu.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dai-ichi Life. Tất cả quyền được bảo lưu.</p>
+            <p>
+                <a href="https://www.dmca.com" target="_blank">
+                    <img src="https://www.dmca.com/Protection/Status.aspx?ID=DMCA-LOGO" alt="DMCA.com Protection Status" />
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
